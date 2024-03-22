@@ -11,12 +11,14 @@
   <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   <%= javascript_importmap_tags %>
 </head>
-<body class="m-3">
+<body>
 <%= render "home/notice", notice: notice %>
 <%= render "home/alerts", alert: alert %>
 
 <%= render "home/header" %>
+<div class="mx-3">
     <%= yield %>
+</div>
 
 </body>
 </html>
