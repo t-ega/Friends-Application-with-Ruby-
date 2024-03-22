@@ -12,6 +12,9 @@
   <%= javascript_importmap_tags %>
 </head>
 <body class="m-3">
+<%= render "home/notice", notice: notice %>
+<%= render "home/alerts", alert: alert %>
+
 <%= render "home/header" %>
     <%= yield %>
 
