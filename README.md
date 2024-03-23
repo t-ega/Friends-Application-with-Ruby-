@@ -45,8 +45,8 @@ Follow these steps to set up the project locally:
 
 - Register a new user account by clicking on the "Sign Up" link on the homepage.
 - Log in with your registered credentials using the "Log In" link.
-- Once logged in, you will be redirected to your profile page.
-- From the profile page, you can view and manage your friends.
+- Once logged in, you will be redirected to your home page.
+- From the home page, you can view and manage your friends.
 - To add a new friend, click on the "Add Friend" button and provide the required information.
 - To delete a friend, click on the "Delete" button next to the friend's name on the list.
 - To edit your profile information, click on the "Edit Profile" link and update the necessary details.
