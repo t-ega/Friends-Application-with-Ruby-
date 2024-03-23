@@ -4,4 +4,6 @@
 
 <div>
   <%= link_to "Back to friends", friends_path, class: "btn btn-secondary"%>
+  <%= link_to "Delete", @friend, data: { "turbo-method": :delete, "turbo-confirm": "Are you sure?" }, class: "btn btn-danger"%>
 </div>
+
