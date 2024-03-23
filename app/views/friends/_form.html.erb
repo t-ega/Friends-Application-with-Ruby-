@@ -26,9 +26,7 @@
       <%= form.label :twitter, class: "form-label"%>
       <%= form.text_field :twitter, class: "form-control"%>
     </div>
-  <div class="mb-3">
-      <%= form.number_field :user_id, id: :friend_user_id, type: :hidden, value: current_user.id, class: "form-control"%>
-    </div>
+
     <%= form.submit "Submit", class: "btn btn-secondary" %>
   <br>
   <br>
